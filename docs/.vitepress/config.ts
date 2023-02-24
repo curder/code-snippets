@@ -27,6 +27,7 @@ export default defineConfig({
         ],
         nav: nav(),
         sidebar: {
+            '/programming-language': sidebarProgrammingLanguage(),
             "/database": sidebarDatabase(),
             "/os": sidebarOs(),
             "/others": sidebarOthers(),
@@ -38,9 +39,22 @@ export default defineConfig({
 function nav()
 {
     return [
+        {text: "编程语言", link: "/programming-language/php/laravel/redirect", activeMatch: '/programming-language'},
         {text: "数据库", link: "/database/mysql/grant-privileges-to-user", activeMatch: "/database"},
         {text: '操作系统', link: '/os/macos/toggle-toolbar-and-dock-status', activeMatch: '/os'},
         {text: '其他', link: '/others/vitepress/getting-started', activeMatch: '/others'},
+    ];
+}
+
+function sidebarProgrammingLanguage()
+{
+    return [
+        {
+            text: "Laravel",
+            items: [
+                {text: "重定向 redirect", link: "/programming-language/php/laravel/redirect"},
+            ]
+        }
     ];
 }
 
