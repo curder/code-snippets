@@ -7,7 +7,7 @@ export default defineConfig({
     description: "记录一些工作中常用的代码片段。",
     lastUpdated: true,
     themeConfig: {
-        // logo: "https://docs.python.org/zh-cn/3/_static/py.svg",
+        logo: "",
         siteTitle: "代码片段",
         outline: {
             label: "章节导航",
@@ -27,7 +27,7 @@ export default defineConfig({
         ],
         nav: nav(),
         sidebar: {
-            "/guide": sidebarGuide(),
+            "/vitepress": sidebarVitepress(),
         }
     }
 });
@@ -36,13 +36,13 @@ export default defineConfig({
 function nav()
 {
     return [
-        //
+        {text: 'VitePress', link: '/vitepress/getting-started', activeMatch: '/vitepress'},
     ];
 }
 
-function sidebarGuide()
+function sidebarVitepress()
 {
     return [
-        //
+
     ];
 }
