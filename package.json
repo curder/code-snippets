@@ -1,0 +1,7 @@
+{
+  "name": "code-snippets",
+  "description": "Record some code snippets at work.",
+  "repository": "https://github.com/curder/code-snippets.git",
+  "author": "curder <q.curder@gmail.com>",
+  "license": "MIT"
+}
