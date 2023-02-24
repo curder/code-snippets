@@ -214,14 +214,14 @@ jobs:
 
 通过在项目的 `Settings` -> `Pages` -> `Branch`，比如这里的 [Pages](https://github.com/curder/code-snippets/settings/pages) 中的 Branch 分支选择 **`gh-pages`**，等待一段时间就可以看到项目部署到了 [YOUR_GITHUB_USERNAME.github.io/PROJECT_NAME](https://curder.github.io/code-snippets/)。
 
-![](./images/getting-started/select-pages-branch.png)
+![](images/getting-started/select-pages-branch.png)
 
 ### 添加构建状态
 
 - 获取构建状态
     
     在 GitHub 项目仓库下选择 `Actions` -> `GitHub Pages` -> `Create status badge`，点击按钮后复制弹出层中的构建 markdown 内容。
-    ![](./images/getting-started/create-status-badge.png)
+    ![](images/getting-started/create-status-badge.png)
 
 - 构建的 markdown 内容 [YOUR_GITHUB_USERNAME/PROJECT_NAME](https://github.com/curder/code-snippets/actions/workflows/build-docs.yml)
 

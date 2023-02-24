@@ -27,7 +27,7 @@ export default defineConfig({
         ],
         nav: nav(),
         sidebar: {
-            "/vitepress": sidebarVitepress(),
+            "/others": sidebarOthers(),
         }
     }
 });
@@ -36,13 +36,20 @@ export default defineConfig({
 function nav()
 {
     return [
-        {text: 'VitePress', link: '/vitepress/getting-started', activeMatch: '/vitepress'},
+        {text: '其他', link: '/others/vitepress/getting-started', activeMatch: '/others'},
     ];
 }
 
-function sidebarVitepress()
+function sidebarOthers()
 {
     return [
-
+        {
+            // text: "其他",
+            // collapsible: true,
+            // collapsed: false,
+            items: [
+                {text: "VitePress初始化", link: "/others/vitepress/getting-started"},
+            ]
+        }
     ];
 }
