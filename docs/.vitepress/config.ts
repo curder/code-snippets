@@ -27,6 +27,7 @@ export default defineConfig({
         ],
         nav: nav(),
         sidebar: {
+            "/database": sidebarDatabase(),
             "/os": sidebarOs(),
             "/others": sidebarOthers(),
         }
@@ -37,11 +38,23 @@ export default defineConfig({
 function nav()
 {
     return [
+        {text: "数据库", link: "/database/mysql/grant-privileges-to-user", activeMatch: "/database"},
         {text: '操作系统', link: '/os/macos/toggle-toolbar-and-dock-status', activeMatch: '/os'},
         {text: '其他', link: '/others/vitepress/getting-started', activeMatch: '/others'},
     ];
 }
 
+function sidebarDatabase()
+{
+    return [
+        {
+            text: "MySQL",
+            items: [
+                {text: "MySQL 用户授权", link: "/database/mysql/grant-privileges-to-user"},
+            ]
+        }
+    ];
+}
 
 function sidebarOs() {
     return [
