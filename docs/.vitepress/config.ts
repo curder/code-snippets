@@ -52,6 +52,7 @@ function sidebarDatabase()
             items: [
                 {text: "MySQL 用户授权", link: "/database/mysql/grant-privileges-to-user"},
                 {text: "修改 MySQL 用户密码", link: "/database/mysql/change-password"},
+                {text: "查找和替换文本", link: "/database/mysql/update-and-replace"},
             ]
         }
     ];
