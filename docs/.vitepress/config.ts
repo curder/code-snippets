@@ -27,6 +27,7 @@ export default defineConfig({
         ],
         nav: nav(),
         sidebar: {
+            "/os": sidebarOs(),
             "/others": sidebarOthers(),
         }
     }
@@ -36,10 +37,22 @@ export default defineConfig({
 function nav()
 {
     return [
+        {text: '操作系统', link: '/os/macos/toggle-toolbar-and-dock-status', activeMatch: '/os'},
         {text: '其他', link: '/others/vitepress/getting-started', activeMatch: '/others'},
     ];
 }
 
+
+function sidebarOs() {
+    return [
+        {
+            text: "MacOS",
+            items: [
+                {text: "切换 Mac 工具栏和菜单显示状态", link: "/os/macos/toggle-toolbar-and-dock-status"},
+            ]
+        }
+    ];
+}
 function sidebarOthers()
 {
     return [
