@@ -53,6 +53,7 @@ function sidebarProgrammingLanguage()
             text: "Laravel",
             items: [
                 {text: "重定向 redirect", link: "/programming-language/php/laravel/redirect"},
+                {text: "@each 渲染集合视图", link: "/programming-language/php/laravel/blade/each"},
             ]
         }
     ];
