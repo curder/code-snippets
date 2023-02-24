@@ -76,7 +76,8 @@ function sidebarOthers()
             // collapsible: true,
             // collapsed: false,
             items: [
-                {text: "VitePress初始化", link: "/others/vitepress/getting-started"},
+                {text: "VitePress 初始化", link: "/others/vitepress/getting-started"},
+                {text: "获取 git 提交的所有文件", link: "/others/git/get-all-files-submitted-by-git"},
             ]
         }
     ];
