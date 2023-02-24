@@ -73,7 +73,7 @@ yarn docs:dev
 yarn docs:build
 ```
 
-VitePress 将在 [localhost:5173](http://localhost:5173) 启动热重载开发服务器。
+VitePress 将在 localhost:5173 启动热重载开发服务器。
 
 ## 添加个性化配置
 
