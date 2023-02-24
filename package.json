@@ -3,5 +3,14 @@
   "description": "Record some code snippets at work.",
   "repository": "https://github.com/curder/code-snippets.git",
   "author": "curder <q.curder@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.47",
+    "vue": "^3.2.47"
+  }
 }
