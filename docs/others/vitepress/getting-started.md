@@ -42,7 +42,7 @@ yarn init
 将 VitePress 和 Vue 作为项目的依赖。
 
 ```bash
-yarn add -D vitepress vue
+yarn add -D vitepress
 
 # 创建第一个文档
 mkdir docs && echo '# Hello VitePress' > docs/README.md
@@ -66,8 +66,7 @@ echo '<!--@include: ./README.md-->' > docs/index.md
     "docs:preview": "vitepress preview docs" // [!code focus]
   }, // [!code focus]
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.47",
-    "vue": "^3.2.47"
+    "vitepress": "^1.0.0-alpha.58"
   }
 }
 ```
