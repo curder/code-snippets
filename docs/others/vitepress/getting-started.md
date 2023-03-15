@@ -8,6 +8,13 @@
 project_name='code-snippets' # 假定项目名称是 code-snippets
 
 mkdir $project_name && cd $project_name # 创建并更改为新目录
+
+git init # 初始化git仓库
+
+# 添加忽略目录到 .gitignore 文件
+echo 'node_modules/
+docs/.vitepress/dist/
+docs/.vitepress/cache/' > .gitignore
 ```
 
 然后，使用 [yarn](https://yarnpkg.com/) 包管理器进行初始化。
