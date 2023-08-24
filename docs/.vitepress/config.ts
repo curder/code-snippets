@@ -54,6 +54,7 @@ function sidebarProgrammingLanguage()
             items: [
                 {text: "重定向 redirect", link: "/programming-language/php/laravel/route/redirect"},
                 {text: "@each 渲染集合视图", link: "/programming-language/php/laravel/blade/each"},
+                {text: "pint 代码风格", link: "/programming-language/php/laravel/code-style/pint"},
             ]
         }
     ];
