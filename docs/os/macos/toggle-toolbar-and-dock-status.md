@@ -8,7 +8,7 @@
 
 或者使用下面的快捷键：
 
-```text
+```txt
 Command + Alt + D
 ```
 
