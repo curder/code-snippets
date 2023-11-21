@@ -95,6 +95,7 @@ function sidebarOthers()
             items: [
                 {text: "VitePress 初始化", link: "/others/vitepress/getting-started"},
                 {text: "获取 git 提交的所有文件", link: "/others/git/get-all-files-submitted-by-git"},
+                {text: "git 别名", link: "/others/git/bash-alias"},
             ]
         }
     ];
