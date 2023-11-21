@@ -96,6 +96,7 @@ function sidebarOthers()
                 {text: "VitePress 初始化", link: "/others/vitepress/getting-started"},
                 {text: "获取 git 提交的所有文件", link: "/others/git/get-all-files-submitted-by-git"},
                 {text: "git 别名", link: "/others/git/bash-alias"},
+                {text: "在网页上启用设计模式", link: "/others/enable-design-mode-on-the-document"},
             ]
         }
     ];
