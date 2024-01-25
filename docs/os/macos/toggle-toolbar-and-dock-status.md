@@ -16,6 +16,9 @@ Command + Alt + D
 
 `系统设置` -> `桌面与程序坞` -> `自动显示和隐藏菜单栏` -> 选择 `始终` 则可以隐藏。
 
+在 MacOS 14 系统开始，切换顶部菜单栏显示和隐藏状态的操作路径修改为：
+`系统设置` -> `控制中心` -> `自动隐藏和显示菜单栏` -> 选择 `始终` 则可以隐藏。
+
 ![](./images/hidden-toolbar/automatically-hide-and-show-the-menu-bar.png)
 
 
