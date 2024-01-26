@@ -60,10 +60,16 @@ function sidebarProgrammingLanguage()
             ]
         },
         {
-            text: "",
+          text: "Node",
+          items: [
+              {text: "NPM 镜像", link: "/programming-language/node/npm-mirrors"},
+              {text: "使用 docker 编译静态资源", link: "/programming-language/node/compile-static-resources-using-docker"},
+          ],
+        },
+        {
+            text: "Others",
             items: [
                 {text: "Composer 镜像",link: "/programming-language/php/composer-mirrors"},
-                {text: "NPM 镜像", link: "/programming-language/node/npm-mirrors"},
             ]
         }
     ];
