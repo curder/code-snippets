@@ -63,6 +63,7 @@ function sidebarProgrammingLanguage()
             text: "",
             items: [
                 {text: "Composer 镜像",link: "/programming-language/php/composer-mirrors"},
+                {text: "NPM 镜像", link: "/programming-language/node/npm-mirrors"},
             ]
         }
     ];
