@@ -58,6 +58,12 @@ function sidebarProgrammingLanguage()
                 {text: "pint 代码风格", link: "/programming-language/php/laravel/code-style/pint"},
                 {text: "安装指定版本 Laravel", link: "/programming-language/php/laravel/installing-a-specific-version-of-laravel"},
             ]
+        },
+        {
+            text: "",
+            items: [
+                {text: "Composer 镜像",link: "/programming-language/php/composer-mirrors"},
+            ]
         }
     ];
 }
