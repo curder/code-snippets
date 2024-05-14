@@ -32,7 +32,8 @@ yarn init
   "description": "Record some code snippets at work.",
   "repository": "https://github.com/curder/code-snippets.git",
   "author": "curder <q.curder@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module"
 }
 ```
 :::
@@ -60,6 +61,7 @@ echo '<!--@include: ./README.md-->' > docs/index.md
   "repository": "https://github.com/curder/code-snippets.git",
   "author": "curder <q.curder@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "scripts": { // [!code focus]
     "docs:dev": "vitepress dev docs", // [!code focus]
     "docs:build": "vitepress build docs", // [!code focus]
