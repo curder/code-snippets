@@ -66,7 +66,7 @@ echo '<!--@include: ./README.md-->' > docs/index.md
     "docs:preview": "vitepress preview docs" // [!code focus]
   }, // [!code focus]
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.58"
+    "vitepress": "^1.1.4"
   }
 }
 ```
