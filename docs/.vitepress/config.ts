@@ -67,6 +67,12 @@ function sidebarProgrammingLanguage()
           ],
         },
         {
+          text: "Python",
+          items: [
+              {text: 'Python 执行 JS 代码', link: "/programming-language/python/python-executes-js-code"},
+          ]
+        },
+        {
             text: "Others",
             items: [
                 {text: "Composer 镜像",link: "/programming-language/php/composer-mirrors"},
