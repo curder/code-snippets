@@ -108,18 +108,25 @@ function sidebarOs() {
 function sidebarOthers()
 {
     return [
+
         {
             // text: "其他",
             // collapsible: true,
             // collapsed: false,
             items: [
                 {text: "VitePress 初始化", link: "/others/vitepress/getting-started"},
-                {text: "获取 git 提交的所有文件", link: "/others/git/get-all-files-submitted-by-git"},
-                {text: "git 别名", link: "/others/git/bash-alias"},
                 {text: "在网页上启用设计模式", link: "/others/enable-design-mode-on-the-document"},
                 {text: "SSH 端口转发",link: "/others/ssh-port-forwarding" },
-                {text: "Docker 命令", link: "/others/docker-commands-essentials"}
+                {text: "Docker 命令", link: "/others/docker-commands-essentials"},
             ]
-        }
+        },
+        {
+            "text": "Git",
+            "items": [
+                {text: "Git 命令", link: "/others/git/commands-essentials"},
+                {text: "Git 别名", link: "/others/git/bash-alias"},
+                {text: "获取提交的文件", link: "/others/git/get-all-files-submitted-by-git"},
+            ],
+        },
     ];
 }
