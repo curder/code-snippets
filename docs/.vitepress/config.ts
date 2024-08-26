@@ -118,6 +118,7 @@ function sidebarOthers()
                 {text: "git 别名", link: "/others/git/bash-alias"},
                 {text: "在网页上启用设计模式", link: "/others/enable-design-mode-on-the-document"},
                 {text: "SSH 端口转发",link: "/others/ssh-port-forwarding" },
+                {text: "Docker 命令", link: "/others/docker-commands-essentials"}
             ]
         }
     ];
