@@ -17,6 +17,8 @@
 | `docker run <image>`                      | 从镜像运行容器      |
 | `docker run -d <image>`                   | 从镜像运行容器（后台）  |
 | `docker run --name ‹name> <image>`        | 从镜像运行容器并命名   |
+| `docker run -it <image> <bash>`           | 从镜像运行容器并交互   |
+| `docker run -it --rm <image> <bash>`      | 从镜像运行容器并删除   |
 | `docker stop <container>`                 | 停止容器         |
 | `docker start <container>`                | 启动容器         |
 | `docker restart <container>`              | 重启容器         |
