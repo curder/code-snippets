@@ -33,7 +33,10 @@ yarn init
   "repository": "https://github.com/curder/code-snippets.git",
   "author": "curder <q.curder@gmail.com>",
   "license": "MIT",
-  "type": "module"
+  "type": "module",
+  "engines": {
+    "node": ">= 18"
+  },
 }
 ```
 :::
@@ -62,13 +65,16 @@ echo '<!--@include: ./README.md-->' > docs/index.md
   "author": "curder <q.curder@gmail.com>",
   "license": "MIT",
   "type": "module",
+  "engines": {
+    "node": ">= 18"
+  },
   "scripts": { // [!code focus]
     "docs:dev": "vitepress dev docs", // [!code focus]
     "docs:build": "vitepress build docs", // [!code focus]
     "docs:preview": "vitepress preview docs" // [!code focus]
   }, // [!code focus]
   "devDependencies": {
-    "vitepress": "^1.1.4"
+    "vitepress": "^1.3.4"
   }
 }
 ```
