@@ -180,7 +180,7 @@ on:
 
 jobs:
   build-docs:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     permissions:
       contents: write
     concurrency:
@@ -194,7 +194,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: '16.x'
+          node-version: '18.x'
 
       - name: Get yarn cache
         id: yarn-cache
