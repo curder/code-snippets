@@ -33,7 +33,10 @@ yarn init
   "repository": "https://github.com/curder/code-snippets.git",
   "author": "curder <q.curder@gmail.com>",
   "license": "MIT",
-  "type": "module"
+  "type": "module",
+  "engines": {
+    "node": ">= 18"
+  },
 }
 ```
 :::
@@ -62,13 +65,16 @@ echo '<!--@include: ./README.md-->' > docs/index.md
   "author": "curder <q.curder@gmail.com>",
   "license": "MIT",
   "type": "module",
+  "engines": {
+    "node": ">= 18"
+  },
   "scripts": { // [!code focus]
     "docs:dev": "vitepress dev docs", // [!code focus]
     "docs:build": "vitepress build docs", // [!code focus]
     "docs:preview": "vitepress preview docs" // [!code focus]
   }, // [!code focus]
   "devDependencies": {
-    "vitepress": "^1.1.4"
+    "vitepress": "^1.3.4"
   }
 }
 ```
@@ -174,7 +180,7 @@ on:
 
 jobs:
   build-docs:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     permissions:
       contents: write
     concurrency:
@@ -188,7 +194,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: '16.x'
+          node-version: '18.x'
 
       - name: Get yarn cache
         id: yarn-cache
