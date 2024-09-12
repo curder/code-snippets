@@ -101,6 +101,7 @@ function sidebarOs() {
             text: "MacOS",
             items: [
                 {text: "切换 Mac 工具栏和菜单显示状态", link: "/os/macos/toggle-toolbar-and-dock-status"},
+                {text: "显示和隐藏 Mac 系统中的隐藏文件", link: "/os/macos/show-and-hide-dot-files"},
             ]
         }
     ];
