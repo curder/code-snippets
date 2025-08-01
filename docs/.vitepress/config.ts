@@ -57,6 +57,7 @@ function sidebarProgrammingLanguage()
                 {text: "Vite 静态资源替换", link: "/programming-language/php/laravel/blade/vite"},
                 {text: "pint 代码风格", link: "/programming-language/php/laravel/code-style/pint"},
                 {text: "监听数据库执行", link: "/programming-language/php/laravel/eloquent/monitor-database-statements"},
+                {text: "自动惰性加载关联关系", link: "/programming-language/php/laravel/eloquent/automatically-eager-load-relationships"},
                 {text: "安装指定版本 Laravel", link: "/programming-language/php/laravel/installing-a-specific-version-of-laravel"},
             ]
         },
